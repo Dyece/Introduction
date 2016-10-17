@@ -1,14 +1,8 @@
 
 public class Main
 {
-  private wordLength;
-  
-  private String encrypt(String word)
-  {
-    wordLength = word.length();
-  }
   public static void main(String [] args)
   {
-    System.out.print("Testing");
+    InputWord myWord = new InputWord();
   }
 }
