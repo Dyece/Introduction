@@ -4,5 +4,20 @@ public class Main
   public static void main(String [] args)
   {
     InputWord myWord = new InputWord();
-  }
-}
+  }//end of static void main method
+}//end of Main class
+
+
+public class InputWord
+{
+  
+  
+  public InputWord()
+  {
+  }//end of InputWord constructor
+  
+  public void insertWord()
+  {
+    System.out.println("Please enter the word you would like to encrypt:");
+  }//end of insertWord method
+}//end of InputWord class
