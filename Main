@@ -21,3 +21,5 @@ import java.util.Scanner;
     System.out.println("Please enter the word you would like to encrypt:");
   }//end of insertWord method
 }//end of InputWord class
+
+public class 
