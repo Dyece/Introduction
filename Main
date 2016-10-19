@@ -11,7 +11,7 @@ public class Main
 public class InputWord
 {
   
-  
+import java.util.Scanner;  
   public InputWord()
   {
   }//end of InputWord constructor
