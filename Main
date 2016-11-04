@@ -13,14 +13,20 @@ public class InputWord
   
   private Scanner in = new Scanner(Scanner.in);
   private String userWord;
+  private String passWord;
   public InputWord()
   {
   }//end of InputWord constructor
   
   public void insertWord()
   {
-    System.out.println("Please enter the word:");
+    System.out.println("Please enter a userName:");
     userWord = in.nextLine();
+    
+    System.out.println("Please enter a password");
+    passWord = in.nextLine();
+    
+    
     
   }//end of insertWord method
 }//end of InputWord class
