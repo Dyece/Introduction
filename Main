@@ -7,18 +7,21 @@ public class Main
   }//end of static void main method
 }//end of Main class
 
-
+import java.util.Scanner;  
 public class InputWord
 {
   
-import java.util.Scanner;  
+  private Scanner in = new Scanner(Scanner.in);
+  private String userWord;
   public InputWord()
   {
   }//end of InputWord constructor
   
   public void insertWord()
   {
-    System.out.println("Please enter the word you would like to encrypt:");
+    System.out.println("Please enter the word:");
+    userWord = in.nextLine();
+    
   }//end of insertWord method
 }//end of InputWord class
 
