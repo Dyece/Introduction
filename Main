@@ -31,4 +31,10 @@ public class InputWord
   }//end of insertWord method
 }//end of InputWord class
 
-public class 
+public class Shuffler
+{
+  public Shuffler()
+  {
+  }//end of shuffler constructor
+
+}//end of shuffler class
